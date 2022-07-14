@@ -2,24 +2,21 @@ import './App.css';
 import Home from './pages/Home.js';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
-
-function App() {
-  return (
-    // BEM
-    <div className="App">
-      <Router>
-        <switch>
-          <Route path="/search">
-            <h1>SearchPage</h1>
-          </Route>
-          <Route>
+function App(){
+  return(
+    <div className='app'>
+      {/* <Router> */}
+        {/* <Switch> */}
+          {/* <Route path="/search"> */}
+            <h1>This is the search page</h1>
+          {/* </Route> */}
+          {/* <Route path='"/'> */}
             <Home/>
-            {/* SearchPage */}
-          </Route>
-        </switch>
-      </Router>
+          {/* </Route> */}
+        {/* </Switch> */}
+      {/* </Router> */}
     </div>
-  );
+  )
 }
  
 export default App;

@@ -9,8 +9,8 @@ function Home() {
         <div className='home_headerLeft'>
         <Link to='/about'>about</Link>
         <Link to='/store'>store</Link>
-        </div>
-        <div className='home_headerRight'>
+      </div>
+      <div className='home_headerRight'>
         <Link to='/gmail'>gmail</Link>
         <Link to='/images'>Images</Link>
         {/* Icon */}
